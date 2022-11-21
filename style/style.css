@@ -125,8 +125,30 @@ h3 {
 .servise {
   border-bottom: 5px solid #f5f5f5;
 }
-.servise_container{
+.servise_container {
   list-style-type: none;
+}
+.servise_item {
+  font-size: 19px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.servise_item::before {
+  content: "✓";
+  display: inline-flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  background-color: rgb(61, 68, 94);
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+.servise_dop {
+  display: flex;
+  justify-content: space-between;
+
 }
 .about {
 }
