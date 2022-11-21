@@ -1,4 +1,4 @@
-/* background-color: #f5f5f5; */
+@import url("https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&display=swap");
 
 * {
   margin: 0;
@@ -11,6 +11,7 @@
   margin: 0 auto;
 }
 header {
+  height: 40px;
 }
 .menu {
   margin-top: 25px;
@@ -20,11 +21,23 @@ header {
 .menu_container {
   display: flex;
   list-style-type: none;
+  transition: all 2s;
 }
 .menu_item {
-  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
 }
 .contacts {
+  display: flex;
+  align-items: center;
+}
+.contacts a {
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 .ic-phone {
   display: block;
@@ -34,6 +47,7 @@ header {
 }
 .logo {
   display: flex;
+  align-items: center;
 }
 .logo img {
   width: 93px;
@@ -45,6 +59,64 @@ header {
   color: #232434;
   font-size: 24px;
 }
-section {
+.preview {
   background-color: #f5f5f5;
+}
+h2 {
+  margin-top: 30px;
+  font-size: 36px;
+  font-family: "Literata", serif;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000;
+}
+.title {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #7c7c7c;
+}
+.call {
+  margin-top: 15px;
+  margin-left: 65px;
+  display: block;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(53, 60, 81) 0%,
+    rgb(100, 112, 150) 99%
+  );
+  width: 210px;
+  height: 58px;
+  color: wheat;
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+}
+.flex_left {
+  width: 50%;
+}
+.flex_right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.flex_right img {
+  width: 250px;
+  height: 310px;
+  margin-top: 10px;
+  border: 1px solid rgb(100, 112, 150);
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.about {
 }
