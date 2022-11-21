@@ -167,5 +167,16 @@ h3 {
   height: 40px;
   font-weight: 600;
 }
-.about {
+
+.about_conatiner {
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.about_conatiner img {
+  width: 150px;
+  height: 200px;
+}
+.about_conatiner p {
+  margin-left: 30px;
 }
