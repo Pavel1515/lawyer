@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/animatiom.css" />
     <title>Адвокат Гайворонськой Виктории. Профисиональная помощь Київ</title>
   </head>
   <body>
@@ -13,10 +14,10 @@
         <div class="menu">
           <nav>
             <ul class="menu_container">
-              <li class="menu_item">Специализация</li>
-              <li class="menu_item">Услуги</li>
-              <li class="menu_item">О нас</li>
-              <li class="menu_item">Контакты</li>
+              <li class="menu_item"><a href="#preview">Специализация</a> </li>
+              <li class="menu_item"><a href="#servise"> Услуги</a></li>
+              <li class="menu_item"><a href="#about">О нас</a></li>
+              <li class="menu_item"><a href="#footer">Контакты</a></li>
             </ul>
           </nav>
           <div class="contacts">
@@ -26,7 +27,7 @@
         </div>
       </div>
     </header>
-    <section class="preview">
+    <section id="preview" class="preview">
       <div class="container">
         <div class="flex">
           <div class="flex_left">
@@ -278,7 +279,7 @@
           </p>
         </div>
         <div>
-          <div class="specialization_h3">
+          <div id="servise" class="specialization_h3">
             Військовим
             <div class="arow" id="eleven_arrow">
               <img src="./img/icons8-стрелка.gif" alt="" />
@@ -329,7 +330,7 @@
           </div>
           <div class="dop_item">
             <img src="./img/Tilda_Icons_28_law_trial.svg" alt="" />
-            <p>Выбирайте лучших</p>
+            <p id="about">Выбирайте лучших</p>
           </div>
         </div>
       </div>
@@ -404,7 +405,7 @@
         </p>
       </div>
     </section>
-    <footer>
+    <footer id="footer">
       <div class="container">
         <span class="before"></span>
         <div class="flex_footer">
@@ -437,5 +438,6 @@
       </div>
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./js/animate.js"></script>
   </body>
 </html>
