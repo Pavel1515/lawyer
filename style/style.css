@@ -35,7 +35,7 @@ header {
   margin-right: 20px;
   cursor: pointer;
 }
-.menu_item a{
+.menu_item a {
   text-decoration: none;
   color: #000;
 }
@@ -171,20 +171,13 @@ h3 {
 }
 .specialization_item {
   display: none;
-  animation: 5s show ease;
+  transition: block 1s;
   color: rgb(133, 128, 128);
   font-size: 16px;
   text-align: center;
   font-weight: 500;
 }
-@keyframes specialization_item {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 .active {
   display: block;
 }
@@ -269,14 +262,13 @@ h3 {
 .advocat_info {
   margin-left: 30px;
 }
-.item_advocat_info{
+.item_advocat_info {
   margin-bottom: 10px;
-
 }
 
 .item_advocat_info span {
   display: inline-block;
-  color: rgb(196,156,91) ;
+  color: rgb(196, 156, 91);
   margin-right: 6px;
 }
 
@@ -339,6 +331,9 @@ h3 {
 }
 .adres img {
   margin-right: 8px;
+}
+.info {
+  opacity: 0;
 }
 
 footer {

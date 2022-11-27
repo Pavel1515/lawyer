@@ -43,3 +43,18 @@ let elementsServise = document.querySelectorAll(".servise");
 for (let elm of elementsServise) {
   observerServise.observe(elm);
 }
+
+function onEntryInfo(entry) {
+  entry.forEach((change) => {
+    if (change.isIntersecting) {
+      change.target.classList.add("element-show_special");
+    }
+  });
+}
+
+let observerInfo = new IntersectionObserver(onEntryInfo, options);
+let elementsInfo = document.querySelectorAll(".info");
+
+for (let elm of elementsInfo) {
+  observerInfo.observe(elm);
+}
