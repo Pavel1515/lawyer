@@ -28,6 +28,7 @@
       Адвокат у кримінальних справах у Києві також області - Гайворонська
       Вікторія
     </title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <header>
@@ -337,9 +338,9 @@
           <p>Залишіть ваші контакти ми вам передзвонимо!</p>
           <img src="./img/down-chevron.png" alt="" />
           <div class="applications_content">
-            <input value="+380" type="text" />
-            <input type="text" placeholder="Ваше ім'я" />
-            <div class="button">Залишити</div>
+            <input id="number" value="+380" type="text" />
+            <input id="name" type="text" placeholder="Ваше ім'я" />
+            <div id="sendMail" class="button">Залишити</div>
           </div>
         </div>
       </div>
@@ -411,5 +412,6 @@
     </footer>
     <script src="./js/main.js"></script>
     <script src="./js/animate.js"></script>
+    <script src="./js/send.js"></script>
   </body>
 </html>
