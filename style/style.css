@@ -454,7 +454,7 @@ footer {
   width: 55px;
   text-align: center;
   position: fixed;
-  right: 40px;
+  right: 60px;
   bottom: 40px;
   z-index: 999;
   transition: 0.3s ease-in-out;
