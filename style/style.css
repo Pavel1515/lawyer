@@ -72,6 +72,16 @@ header {
   color: white;
   font-size: 24px;
 }
+h1{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
 .preview {
   padding-top: 80px;
   padding-bottom: 40px;
