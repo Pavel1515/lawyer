@@ -197,11 +197,11 @@ h3 {
 }
 .specialization_item {
   display: none;
+  text-align: left;
   opacity: 0;
   transition: block 1s;
   color: rgb(133, 128, 128);
   font-size: 16px;
-  text-align: center;
   font-weight: 500;
 }
 
@@ -432,6 +432,9 @@ h5 {
 
 footer {
   margin-bottom: 15px;
+}
+.ml-10{
+  margin-left: 10px;
 }
 /* Animation_phone */
 
