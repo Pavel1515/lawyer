@@ -13,7 +13,6 @@
       Вікторія"
     />
     <meta property="og:url" content="https://advokatkiev.net" />
-    <meta property="og:locale" content="ru_RU" />
     <meta
       property="og:description"
       content="Гайворонська Вікторія Валентинівна(глава обласної колегії адвокатів) - Київська область,Софіївська Борщагівка.Профісійна адвокатська допомога у кримінальних справах"
@@ -22,17 +21,747 @@
       property="og:description"
       content="Гайворонська Вікторія Валентинівна(глава обласної колегії адвокатів) - Київська область,Софіївська Борщагівка.Профісійна адвокатська допомога у кримінальних справах"
     />
-    <meta name="description" content="Гайворонська Вікторія Валентинівна(глава обласної колегії адвокатів) - Київська область,Софіївська Борщагівка.Профісійна адвокатська допомога у кримінальних справах">
+    <meta
+      name="description"
+      content="Гайворонська Вікторія Валентинівна(глава обласної колегії адвокатів) - Київська область,Софіївська Борщагівка.Профісійна адвокатська допомога у кримінальних справах"
+    />
     <meta property="og:image" content="./img/foto.webp" />
-    <link rel="shortcut icon" href="./img/favico.png" type="image/png" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="canonical" href="https://advokatkiev.net" />
+    <link rel="shortcut icon" href="./img/favico.png" type="image/png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: "Literata", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* heder */
+header {
+  position: fixed;
+  background-color: rgb(2, 12, 46);
+  width: 100%;
+  z-index: 3;
+  height: 55px;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid white;
+}
+
+.flex_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tre {
+  width: 14px;
+  height: 14px;
+}
+.contact_header {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.contact_header a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lobster", cursive;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.contact_header p {
+  margin-left: 5px;
+  text-decoration: none;
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 14px;
+}
+
+/* preview section */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+}
+.logo a {
+  text-align: center;
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
+.preview {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background: rgb(24, 20, 80);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 20, 80, 1) 5%,
+    rgba(41, 41, 94, 1) 30%,
+    rgba(46, 48, 143, 1) 43%,
+    rgba(30, 31, 69, 1) 62%,
+    rgba(25, 31, 56, 1) 80%
+  );
+}
+
+.call {
+  opacity: 0;
+  margin-top: 25px;
+  margin-left: 145px;
+  display: block;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(53, 60, 81) 0%,
+    rgb(100, 112, 150) 99%
+  );
+  width: 210px;
+  height: 58px;
+  color: wheat;
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.info_preves {
+  color: white;
+  width: 350px;
+  font-family: "Literata", serif;
+  font-weight: 400;
+  margin-right: 45px;
+  margin-top: 35px;
+}
+h4 {
+  margin-bottom: 20px;
+}
+h4::before {
+  content: "-";
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+}
+.flex_left {
+  width: 50%;
+}
+.flex_right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.flex_right img {
+  width: 220px;
+  height: 310px;
+  border: 2px solid rgb(74, 82, 116);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+/* Specialization */
+h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.specialization {
+  opacity: 0;
+  border-bottom: 5px solid #f5f5f5;
+}
+
+.specialization_h3 {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  color: rgb(49, 48, 57);
+  width: 100%;
+  height: 34px;
+  font-weight: 900;
+  background-color: rgb(221, 220, 220);
+  margin-bottom: 4px;
+  padding-left: 34px;
+}
+.specialization_item::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 75%;
+  background-color: rgb(196, 156, 91);
+  height: 1px;
+}
+.specialization_item::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 80%;
+  background-color: rgb(196, 156, 91);
+  height: 1px;
+}
+.specialization_item {
+  display: none;
+  text-align: left;
+  opacity: 0;
+  transition: block 1s;
+  color: rgb(133, 128, 128);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.active {
+  display: block;
+}
+.arow {
+  margin-left: 10px;
+  color: #a1a1a5;
+}
+
+.servise {
+  opacity: 0;
+  border-bottom: 5px solid #f5f5f5;
+}
+.servise_container {
+  list-style-type: none;
+}
+.servise_item {
+  font-size: 19px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.servise_item::before {
+  content: "✓";
+  display: inline-flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  background-color: rgb(61, 68, 94);
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+.servise_dop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.dop_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+.dop_item img {
+  width: 110px;
+  height: 110px;
+}
+.dop_item p {
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  font-weight: 600;
+}
+/* Info */
+.about_conatiner {
+  height: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  background-color: #dddef3;
+}
+
+.about_conatiner img {
+  width: 130px;
+  height: 180px;
+  border-radius: 3px;
+}
+.advocat_info {
+  margin-left: 30px;
+}
+.item_advocat_info {
+  margin-bottom: 10px;
+}
+
+.item_advocat_info span {
+  display: inline-block;
+  color: rgb(196, 156, 91);
+  margin-right: 6px;
+}
+
+.about_info {
+  margin-top: 30px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  margin-bottom: 30px;
+}
+/* section applications */
+.applications_section {
+  background: rgb(3, 0, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 0, 40, 1) 15%,
+    rgba(28, 28, 193, 1) 64%,
+    rgba(9, 157, 187, 1) 99%
+  );
+}
+.applications {
+  width: 100%;
+}
+.applications_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.applications_content input {
+  width: 258px;
+  padding: 4px;
+  color: rgb(216, 200, 200);
+  background-color: rgb(98, 98, 126);
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.applications p {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+.applications img {
+  display: block;
+  margin: 0 auto;
+  width: 66px;
+  height: 66px;
+  margin-top: 15px;
+}
+.button {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 158px;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-bottom: 30px;
+  border-radius: 15px 0px 15px 0px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.button:hover {
+  background-color: #3737af;
+}
+h5 {
+  font-family: "EB Garamond", serif;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+.applications p {
+  font-family: "EB Garamond", serif;
+  margin-top: 36px;
+  font-size: 24px;
+  color: white;
+}
+/* footer */
+
+.ic-phone {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/ic_phone.png");
+  background-repeat: no-repeat;
+}
+
+.mini_footer_logo {
+  display: flex;
+  align-items: center;
+}
+.mini_footer_logo img {
+  width: 60px;
+  height: 60px;
+}
+.mini_footer_logo p {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.flex_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(0, 16, 41);
+  margin-bottom: 15px;
+}
+.contact_footer {
+  display: flex;
+}
+.contact_footer a {
+  margin-left: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+}
+.adres {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  color: black;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+}
+.adres img {
+  margin-right: 8px;
+}
+.info {
+  opacity: 0;
+}
+
+footer {
+  margin-bottom: 15px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+/* Animation_phone */
+
+/*кнопка звонка*/
+
+.callback-bt {
+  background: #38a3fd;
+  border-radius: 50%;
+  box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3);
+  cursor: pointer;
+  border: 2px solid transparent;
+  display: block;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  position: fixed;
+  right: 60px;
+  bottom: 40px;
+  z-index: 999;
+  transition: 0.3s ease-in-out;
+  -webkit-animation: hoverWave linear 1s infinite;
+  animation: hoverWave linear 1s infinite;
+}
+
+.text-call {
+  background-image: url("../img/free-icon-phone-2948005.png");
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: 9px;
+  left: 9px;
+}
+
+@keyframes hoverWave {
+  0% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3),
+      0 0 0 0 rgba(56, 163, 253, 0.2), 0 0 0 0 rgba(56, 163, 253, 0.2);
+  }
+
+  40% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3),
+      0 0 0 15px rgba(56, 163, 253, 0.2), 0 0 0 0 rgba(56, 163, 253, 0.2);
+  }
+
+  80% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3),
+      0 0 0 30px rgba(56, 163, 253, 0), 0 0 0 26.7px rgba(56, 163, 253, 0.067);
+  }
+
+  100% {
+    box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3),
+      0 0 0 30px rgba(56, 163, 253, 0), 0 0 0 40px rgba(56, 163, 253, 0);
+  }
+}
+
+/* конец кнопки звонка */
+
+/* адаптив */
+@media (max-width: 1200px) {
+  .container {
+    width: 980px;
+  }
+  .specialization_item {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 980px) {
+  .container {
+    width: 720px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .flex_left {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .flex_right {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .specialization_item {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .callback-bt {
+    right: 20px;
+  }
+  .mini_footer_logo {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .flex_footer {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 540px;
+  }
+  header {
+    top: 0;
+    right: 0;
+    height: 45px;
+  }
+  .specialization {
+    opacity: 1;
+  }
+
+  .contact_header a {
+    font-size: 12px;
+  }
+  .preview {
+    background: rgb(24, 20, 80);
+    background: linear-gradient(
+      90deg,
+      rgba(24, 20, 80, 1) 5%,
+      rgba(41, 41, 94, 1) 30%,
+      rgba(46, 48, 143, 1) 43%,
+      rgba(30, 31, 69, 1) 62%,
+      rgba(25, 31, 56, 1) 80%
+    );
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .flex_left {
+    width: 100%;
+  }
+  .call {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .flex_right {
+    width: 100%;
+  }
+  .flex_footer {
+    flex-direction: column;
+    align-items: start;
+  }
+  .specialization_item {
+    width: 540px;
+    margin: 0 auto;
+  }
+  .callback-bt {
+    right: 20px;
+  }
+  .mini_footer_logo {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 320px;
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+    height: 45px;
+  }
+  .specialization {
+    opacity: 1;
+  }
+
+  .contact_header a {
+    font-size: 12px;
+  }
+  .preview {
+    background: rgb(24, 20, 80);
+    background: linear-gradient(
+      90deg,
+      rgba(24, 20, 80, 1) 5%,
+      rgba(41, 41, 94, 1) 30%,
+      rgba(46, 48, 143, 1) 43%,
+      rgba(30, 31, 69, 1) 62%,
+      rgba(25, 31, 56, 1) 80%
+    );
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .flex_left {
+    width: 100%;
+  }
+  .call {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .flex_right {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .flex_footer {
+    flex-direction: column;
+    align-items: start;
+  }
+  .specialization_item {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .callback-bt {
+    right: 20px;
+  }
+  .mini_footer_logo {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+  header {
+    overflow-x: hidden;
+    top: 0;
+    right: 0;
+    height: 45px;
+  }
+
+  .contact_header a {
+    font-size: 12px;
+  }
+  .preview {
+    background: rgb(24, 20, 80);
+    background: linear-gradient(
+      90deg,
+      rgba(24, 20, 80, 1) 5%,
+      rgba(41, 41, 94, 1) 30%,
+      rgba(46, 48, 143, 1) 43%,
+      rgba(30, 31, 69, 1) 62%,
+      rgba(25, 31, 56, 1) 80%
+    );
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .flex_left {
+    width: 100%;
+  }
+  .call {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .flex_right {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .flex_footer {
+    flex-direction: column;
+    align-items: start;
+  }
+  .specialization_item {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .callback-bt {
+    right: 20px;
+  }
+  .mini_footer_logo {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .specialization {
+    opacity: 1;
+  }
+}
+
+    </style>
     <link rel="stylesheet" href="./style/animatiom.css" />
     <title>
       Адвокат у кримінальних справах у Києві також області - Гайворонська
       Вікторія
     </title>
+    <script src="./js/main.js"></script>
+    <script src="./js/send.js"></script>
   </head>
   <body>
     <!-- Шапка -->
@@ -40,7 +769,11 @@
       <div class="container">
         <div class="flex_header">
           <div class="contact_header">
-            <img class="tre" src="./img/free-icon-phone-2948005.png" alt="phone" />
+            <img
+              class="tre"
+              src="./img/free-icon-phone-2948005.png"
+              alt="phone"
+            />
             <a href="tel:+380660519669">+380660519669</a>
           </div>
           <div class="contact_header">
@@ -379,12 +1112,11 @@
         </div>
       </div>
     </footer>
-    <script src="./js/main.js"></script>
-    <script src="./js/animate.js"></script>
-    <script src="./js/send.js"></script>
+
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
+    <script type="text/javascript" src="./js/animate.js"></script>
   </body>
 </html>
